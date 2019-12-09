@@ -48,8 +48,8 @@ class TwitterClient():
 class TwitterAuthenticator():
 
     def authenticate_twitter_app(self):
-        auth = OAuthHandler("WlB4qdecgNZH7TSkuRQWGKYz4", "EDimeHCtpxilJeoXncgT0XPtXMJOzmQAjiG5VbnG4ytXyWbcu9")
-        auth.set_access_token("1173709326113890304-zh4X45gok1LlFx41BuvhB6EJ5hYsfh", "eWIKD8RFr8VaLtbu1NiLOtKu4iEkYrrPTvQwA7rBLOd5M")
+        auth = OAuthHandler()
+        auth.set_access_token()
         return auth
 class TwitterStreamer():
     """
